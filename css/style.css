@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    color: gold;
+    text-shadow: 0 0 5px white;
+}
+.navbar-toggle-icon{
+    color:gold;
+}
+a {
+    text-decoration: none;
+    color: goldenrod;
+}
+a:hover{
+    color: blueviolet;
+}
+
+.jumbotron{
+    background-image:linear-gradient(rgba(39, 38, 36, 0.589), rgba(99, 92, 33, 0.5)), url(/img/saint.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    color: goldenrod;
+    text-shadow: 0 0 5px black;
+    border-radius: 0;
+    margin: 0;
+    }
+.jumbotron p{
+    font-size: x-large;
+}
+
+h2{
+    background-color: gold;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+}
+.nleft{
+    background-image: url(/img/Saint-Seiya1.webp);
+    background-size:cover;
+    background-position:center;
+    height: 500px;
+}
+.nright{
+    background-image: url(/img/saint-seiya2.webp);
+    background-size:cover;
+    background-position:center;
+    height: 500px;
+}
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.pie {
+    color: gold;
+    font-size: x-large;
+}
+
+.redes a i {
+    font-size: xx-large;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.redes a i:hover {
+    transform: scale(1.5);
+    transition: all 1s ease;
+    color: goldenrod;
+}
+
+main {
+    min-height: 80vh;
+    background-color: #faeeae;
+}
+
+
+
+
+
+
+
+
+.video1 {
+    padding: 10px 10px;
+}
